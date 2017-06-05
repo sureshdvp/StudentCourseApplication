@@ -42,14 +42,14 @@ public class StudentServiceImpl implements StudentService {
 
 	@Override
 	public void deleteAllStudents() {
-		// TODO Auto-generated method stub
+		studentRepository.deleteAll();
 		
 	}
 
 	@Override
 	public List<Student> findAllStudents() {
-		// TODO Auto-generated method stub
-		return null;
+		
+		return studentRepository.findAll();
 	}
 	
 }
