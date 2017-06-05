@@ -33,7 +33,7 @@ app.controller('showUniversityCtrl', function($scope, $http) {
 
    <div ng-app="courseApp" ng-controller="showUniversityCtrl"> 
      <h1>View Universites</h1>
-     <div style="overflow:auto;height:300px;width:1000px">
+     <div style="overflow:auto;height:400px;width:1000px">
     <table>
     <tr>
     <th>Code</th>

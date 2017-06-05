@@ -21,6 +21,11 @@ public class MainController {
 		return "viewRegisteredStudents";
 	}
 	
+	@RequestMapping("/viewUniversities")
+	public String viewUniversities(){
+		return "viewUniversities";
+	}
+	
 	
 
 }
