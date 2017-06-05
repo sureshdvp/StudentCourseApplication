@@ -1,4 +1,4 @@
-This is is spring boot application with Spring data jpa and angular js.
+This is spring boot application with Spring data jpa and angular js.
 The purpose of this application is  to show the list of universities,regisetered students and also student can register.
 To Run this appliaction create a table
 
@@ -25,5 +25,5 @@ To navigate UI,go to any browser open this URL.http://localhost:8000/menu.
 
 it will show the links to register,show the list of universities and show the registered students
 
-To see screen please refer below link
+To see the screen shots please refer below link
 https://github.com/sureshdvp/StudentCourseApplication/blob/master/StudentCourseApp%20screens.docx
