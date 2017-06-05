@@ -42,7 +42,8 @@ public class StudentCourseController {
 	
 	@RequestMapping("/fetchRegisteredStudents")
 	public List<Student> viewRegisteredStudents(){
-		return studentService.findAllStudents();
+		List<Student> students =studentService.findAllStudents();
+		return students;
 	}
 	
 	@RequestMapping(value="/registerStudent", consumes = MediaType.APPLICATION_JSON_VALUE, method = RequestMethod.POST)
