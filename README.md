@@ -24,3 +24,6 @@ when you run this application as java appliaction spring boot internally does re
 To navigate UI,go to any browser open this URL.http://localhost:8000/menu.
 
 it will show the links to register,show the list of universities and show the registered students
+
+To see screen please refer below link
+https://github.com/sureshdvp/StudentCourseApplication/blob/master/StudentCourseApp%20screens.docx
