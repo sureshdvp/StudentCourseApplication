@@ -98,13 +98,13 @@
                 }
          
                 function _success(response) {
-                	
+                	alert("saved successfully. Please click on view registered students link  to see the details");
                     _refreshPageData();
                     _clearForm()
                 }
          
                 function _error(response) {
-                	alert("saved successfully.please clik go back and clik on view registered students link ");
+                	alert("saved successfully. Please click on view registered students link  to see the details");
                 	_refreshPageData();
                     _clearForm()
                     console.log(response.statusText);
@@ -210,7 +210,7 @@
 						<tr><br><br>
 						
 							
-								<td align='center'><a href="http://localhost:8000/viewRegisteredStudents">View Registered students***</a><br><br></td>
+								<td align='center'><a href="http://localhost:8000/viewRegisteredStudents">View Registered students</a><br><br></td>
 						</tr>
 					
 					</table>

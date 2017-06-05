@@ -33,6 +33,7 @@ app.controller('showUniversityCtrl', function($scope, $http) {
 
    <div ng-app="courseApp" ng-controller="showUniversityCtrl"> 
      <h1>View Universites</h1>
+     <a href="http://localhost:8000/menu">Back</a><br><br>
      <div style="overflow:auto;height:400px;width:1000px">
     <table>
     <tr>

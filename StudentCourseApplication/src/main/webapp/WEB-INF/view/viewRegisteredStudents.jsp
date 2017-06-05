@@ -4,10 +4,22 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;    
+}
+</style>
 <title>Registered Student List</title>
 </head>
 <body>
 <h1>Registered Students List</h1>
+<a href="http://localhost:8000/menu">Back</a><br><br>
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.js"></script>
 <script>
@@ -23,14 +35,14 @@ app.controller('showStudentCtrl', function($scope, $http) {
 
 
    <div ng-app="showStudentApp" ng-controller="showStudentCtrl"> 
-     <h1>View Students</h1>
+     
      <div style="overflow:auto;height:400px;width:1000px">
     <table>
     <tr>
     <th>First Name</th>
     <th >Last Name</th>
     <th>Course Name</th>
-    <th >Universiti Name</th>
+    <th >University Name</th>
     <th >Address</th>
     <th>Phone</th>
     <th >Email</th>
