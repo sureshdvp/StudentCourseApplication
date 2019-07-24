@@ -27,3 +27,6 @@ it will show the links to register,show the list of universities and show the re
 
 To see the screen shots please refer below link
 https://github.com/sureshdvp/StudentCourseApplication/blob/master/StudentCourseApp%20screens.docx
+
+
+Committed by Somnath
